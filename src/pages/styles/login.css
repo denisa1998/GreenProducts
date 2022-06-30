@@ -1,0 +1,30 @@
+/* exo-2-600italic - latin */
+@font-face {
+  font-family: "Exo 2";
+  font-style: italic;
+  font-weight: 600;
+  src: url("./fonts/exo-2-v7-latin-600italic.eot"); /* IE9 Compat Modes */
+  src: local("Exo 2 SemiBold Italic"), local("Exo2-SemiBoldItalic"),
+    url("./fonts/exo-2-v7-latin-600italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/exo-2-v7-latin-600italic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/exo-2-v7-latin-600italic.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/exo-2-v7-latin-600italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/exo-2-v7-latin-600italic.svg#Exo2")
+      format("svg"); /* Legacy iOS */
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Exo 2", sans-serif !important;
+}
+#login {
+  height: 100vh;
+  background: url("../../images/uvas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

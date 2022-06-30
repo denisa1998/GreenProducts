@@ -1,0 +1,16 @@
+{ "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODYwMTE3NDAsImV4cCI6MTU4NjA1NDk0MCwiaXNzIjoibG9jYWxob3N0OjMwMDAiLCJlbWFpbCI6Im1hcmlhOUBnbWFpbC5jb20ifQ.X_SYmUVKvJ8U7bLZQT49iEAhzhtVNi3ugFHB_Z7NWqI",
+  "data": {
+    "name":"jose",
+    "lastName": "antonio",
+    "dni": "23423423s",
+    "birthDate":"2022-03-10",
+    "address": "sevilla",
+    "zip": "24323",
+    "phone": "93204332",
+    "email": "assdf@sdfsd.com",
+    "memberNumberInvite":"24",
+    "ludicOrThepeutic": "Ludico",
+    "observations": "Ninguna",
+    "status": "Inactivo",
+    "password":"josejose"
+  } }

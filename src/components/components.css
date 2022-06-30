@@ -1,0 +1,74 @@
+.grConsum {
+  border: 1px solid;
+  margin: 0 1.5rem 0.5rem 1.5rem;
+  border-radius: 15px;
+  background: rgba(143, 115, 49, 0.253);
+  padding: 0.4rem;
+}
+#scales {
+  width: 60%;
+}
+.insideButton {
+  margin-left: 0.5rem;
+  line-height: normal;
+  font-weight: bold;
+}
+/* Estados del socio */
+
+#expired {
+  background: #db5a40d8;
+  height: 10vh;
+  font-size: 1.2rem;
+}
+.dataMissing {
+  background: #db5a40d8;
+  /* background: rgba(255, 72, 0, 0.781); */
+  height: 10vh;
+  font-size: 1.2rem;
+}
+.upToDate {
+  background: #db5a40d8;
+  /* background: rgba(255, 72, 0, 0.781); */
+  height: 10vh;
+  font-size: 1.2rem;
+}
+.outdated {
+  background: #db5a40d8;
+  /* background: rgba(255, 72, 0, 0.781); */
+  height: 10vh;
+  font-size: 1.2rem;
+}
+.tablaHistorial {
+  background: rgba(111, 162, 114, 0.534);
+}
+.historialContenedor {
+  background: rgba(143, 115, 49, 0.253);
+  margin-top: "1.8rem";
+}
+.buttonCart {
+  padding: 0 1rem !important;
+}
+.userData {
+  color: rgba(0, 0, 0, 0.712);
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+}
+.rightText {
+  text-align: right;
+  margin: 0;
+}
+.title {
+  color: rgba(0, 0, 0, 0.712);
+  margin: 0.5rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.validForm {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+.invalidForm {
+  color: red;
+  text-align: center;
+}

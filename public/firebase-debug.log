@@ -1,0 +1,39 @@
+[debug] [2022-06-29T18:43:19.496Z] ----------------------------------------------------------------------
+[debug] [2022-06-29T18:43:19.498Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-29T18:43:19.499Z] CLI Version:   11.0.1
+[debug] [2022-06-29T18:43:19.499Z] Platform:      win32
+[debug] [2022-06-29T18:43:19.499Z] Node Version:  v14.19.0
+[debug] [2022-06-29T18:43:19.500Z] Time:          Wed Jun 29 2022 20:43:19 GMT+0200 (Central European Summer Time)
+[debug] [2022-06-29T18:43:19.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-29T18:43:19.565Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-29T18:43:19.565Z] > authorizing via signed-in user (denisastupinean450@gmail.com)
+[debug] [2022-06-29T18:43:19.565Z] [iam] checking project greenproducts-2e471 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-29T18:43:19.567Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/greenproducts-2e471:testIamPermissions [none]
+[debug] [2022-06-29T18:43:19.567Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/greenproducts-2e471:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-29T18:43:20.341Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/greenproducts-2e471:testIamPermissions 200
+[debug] [2022-06-29T18:43:20.342Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/greenproducts-2e471:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-29T18:43:20.342Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/greenproducts-2e471/serviceAccounts/greenproducts-2e471@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-06-29T18:43:20.343Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/greenproducts-2e471/serviceAccounts/greenproducts-2e471@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-06-29T18:43:20.684Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/greenproducts-2e471/serviceAccounts/greenproducts-2e471@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-06-29T18:43:20.684Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/greenproducts-2e471/serviceAccounts/greenproducts-2e471@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-06-29T18:43:20.685Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/greenproducts-2e471 [none]
+[debug] [2022-06-29T18:43:21.044Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/greenproducts-2e471 200
+[debug] [2022-06-29T18:43:21.044Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/greenproducts-2e471 {"projectId":"greenproducts-2e471","projectNumber":"935116628217","displayName":"GreenProducts","name":"projects/greenproducts-2e471","resources":{"hostingSite":"greenproducts-2e471","storageBucket":"greenproducts-2e471.appspot.com","locationId":"europe-west"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'greenproducts-2e471'...
+[info] 
+[info] i  deploying firestore, functions, hosting 
+[debug] [2022-06-29T18:43:21.187Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (internal/errors.js:322:7)
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:424:7)
+    at Config.path (C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\config.js:122:45)
+    at getChildEnvironment (C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:50:49)
+    at runTargetCommands (C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:71:14)
+    at C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:122:24
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async chain (C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\deploy\index.js:33:9)
+    at async deploy (C:\Users\stupi\AppData\Roaming\nvm\v14.19.0\node_modules\firebase-tools\lib\deploy\index.js:67:5)
+[error] 
+[error] Error: An unexpected error has occurred.

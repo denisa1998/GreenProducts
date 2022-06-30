@@ -1,0 +1,11 @@
+.iconos {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.tablaUsuarios {
+  background: rgba(111, 162, 114, 0.534);
+}
+#tablaUsuarios {
+  margin-top: 2rem;
+  background: rgba(143, 115, 49, 0.253);
+}

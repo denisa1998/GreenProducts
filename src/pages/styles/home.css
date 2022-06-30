@@ -1,0 +1,18 @@
+#img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+}
+b {
+  background: rgb(56, 28, 56);
+  background: rgba(207, 124, 207, 0.253);
+}
+#tablePrincipal {
+  width: 100%;
+  max-height: 50vh;
+  background: #7d4c2234;
+  overflow-y: scroll;
+  scrollbar-color: #388e3c white;
+  scrollbar-width: thin;
+}
